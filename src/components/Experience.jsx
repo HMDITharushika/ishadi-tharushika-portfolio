@@ -42,7 +42,15 @@ const Experience = () => {
               </h6>
 
               {/* Description Section */}
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-neutral-400">
+                <ul className="list-disc pl-5 mt-2">
+                  {experience.description.map((point, i) => (
+                    <li key={i} className="mb-1">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </p>
 
               {experience.technologies.map((tech, index) => (
                 <span
