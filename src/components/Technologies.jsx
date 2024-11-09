@@ -4,7 +4,6 @@ import { SiFlask } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -16,6 +15,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
+import { SiJest } from "react-icons/si";
 
 import { animate, motion } from "framer-motion";
 
@@ -141,8 +141,28 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
+          <TbBrandNextjs className="text-7xl text-red-400" />
+          <p className="text-center">Next.js</p>
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <SiFlask className="text-7xl" />
           <p className="text-center">Flask</p>
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiJest className="text-7xl text-red-800" />{" "}
+          <p className="text-center">Jest</p>
         </motion.div>
 
         <motion.div
