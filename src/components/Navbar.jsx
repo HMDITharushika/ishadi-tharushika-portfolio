@@ -1,4 +1,3 @@
-import React from "react";
 import logo2 from "../assets/logo2.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -26,7 +25,7 @@ const Navbar = () => {
         <a href="https://x.com/ishaditharushi3" target="_blank">
           <FaTwitter />
         </a>
-        <a href="https://www.instagram.com/ishadi.online/" target="_blank">
+        <a href="https://www.instagram.com/ishadayy/" target="_blank">
           <FaInstagram />
         </a>
       </div>

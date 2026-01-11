@@ -6,6 +6,26 @@ import fanatismo from "../assets/projects/fanatismo.png";
 export const HERO_CONTENT = `I'm a dedicated software developer with a strong foundation in frontend development and a passion for crafting seamless user experiences. Proficient in React, JavaScript, and modern CSS frameworks like MUI and Tailwind CSS, I bring designs to life with clean, efficient code. My experience includes working on dynamic projects, from developing mental health tracking apps to creating artist-focused platforms. With a solid grasp of Agile methodologies and a commitment to continuous learning, I thrive in collaborative environments, always eager to tackle new challenges. `;
 
 export const EXPERIENCES = [
+  
+  {
+    year: "Jan 2025 - Present",
+    role: "Web Developer - Contract",
+    company: "Sparkhaus",
+    description: [
+      "Conducted UI/UX research, created wireframes, and developed interactive prototypes using Figma to enhance user experience.",
+      "Designed and implemented modern, responsive, and user-friendly web applications using React.js, Next.js, and style libraries (Tailwind CSS / GSAP/ Framer Motion).",
+      "Contributed to Shopify-focused projects, optimizing frontend design for e-commerce applications.",
+      "Applied design thinking principles to improve usability and accessibility across platforms",
+    ],
+    technologies: [
+      "React.js",
+      "Nexr.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP",
+      "Contentful",
+    ],
+  },
   {
     year: "Oct 2023 - Apr 2024",
     role: "Sofware Engineer [ Internship ]",
@@ -76,7 +96,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "NSBM Green University, Pitipana - Thalagala Rd, Homagama",
-  phoneNo: "+94 76 611 7497",
   email: "ishadihandapangoda@gmail.com",
 };

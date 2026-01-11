@@ -1,23 +1,23 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiFlask } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiJavascript } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { SiCsharp } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
-import { SiJest } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FcLinux } from "react-icons/fc";
+import { SiPostman } from "react-icons/si";
 
-import { animate, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -50,7 +50,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-2xl"
       >
-        Programming Languages
+        Languages
       </motion.h2>
 
       <motion.div
@@ -85,8 +85,18 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiJavascript className="text-7xl text-yellow-400" />{" "}
+          <SiJavascript className="text-7xl text-yellow-400" />{" "}
           <p className="text-center">Javascript</p>
+        </motion.div>
+
+         <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-400" />{" "}
+          <p className="text-center">TypeScript</p>
         </motion.div>
 
         <motion.div
@@ -97,16 +107,6 @@ const Technologies = () => {
         >
           <FaPython className="text-7xl text-blue-900" />{" "}
           <p className="text-center"> Python</p>
-        </motion.div>
-
-        <motion.div
-          variants={iconVariants(1)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiCsharp className="text-7xl text-purple-500" />{" "}
-          <p className="text-center">C#</p>
         </motion.div>
       </motion.div>
 
@@ -132,7 +132,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />{" "}
-          <p className="text-center">React js</p>
+          <p className="text-center">React.js</p>
         </motion.div>
 
         <motion.div
@@ -153,16 +153,6 @@ const Technologies = () => {
         >
           <SiFlask className="text-7xl" />
           <p className="text-center">Flask</p>
-        </motion.div>
-
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiJest className="text-7xl text-red-800" />{" "}
-          <p className="text-center">Jest</p>
         </motion.div>
 
         <motion.div
@@ -231,6 +221,16 @@ const Technologies = () => {
           <p className="text-center">MySQL</p>
         </motion.div>
 
+          <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPostman className="text-7xl text-orange-500" />{" "}
+          <p className="text-center">Postman</p>
+        </motion.div>
+
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
@@ -260,6 +260,17 @@ const Technologies = () => {
           <FaDocker className="text-7xl text-blue-400" />{" "}
           <p className="text-center">Docker</p>
         </motion.div>
+
+         <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FcLinux className="text-7xl" />{" "}
+          <p className="text-center">Linux</p>
+        </motion.div>
+     
       </motion.div>
 
       {/* add;

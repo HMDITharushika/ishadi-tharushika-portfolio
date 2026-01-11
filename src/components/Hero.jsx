@@ -1,4 +1,3 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/ishadi.jpg";
 import { motion } from "framer-motion";
@@ -32,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent "
             >
-              Software Develoepr
+              Tech Enthusiast
             </motion.span>
 
             <motion.p
